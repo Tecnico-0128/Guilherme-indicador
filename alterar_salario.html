@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Clientes</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topo">
+        <h1>Loja de TÊNIS</h1>
+    </div>
+    <div class="menu">
+        <a href="cadastro_funcionario.html"> Cadastro de Funcionarios</a> | 
+        <a href="alterar_salario.html"> Alterar  Salario</a>
+        <a href="demissao.html">Demitir funcionario</a>
+        <a href="listar_funcionario.html"> Listar Funcionario</a>
+
+    </div>
+    <div >
+        <div >
+            <h2>Buscar Funcionario</h2>      
+                <label>Cpf do Funcionario:</label><br>
+                <input id="cpf2" type="text"><br><br>
+                <button id="cadastro2"  onclick="Buscar()">Buscar funcionario</button>
+                <label >Alterar salario:</label>
+                <input type="text" id="alterar_salario">
+                <button id="alterar salarios" onclick="alterar()"></button>
+        </div>
+    </div>
+    <div class="principal" id="alterar-salarios"></div>
+</body>
+</html>

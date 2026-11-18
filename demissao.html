@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Demissão de clientes</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topo">
+        <h1>Guilherme Store</h1>
+    </div>
+
+    <div class="menu">
+        <a href="cadastro_funcionario.html"> Cadastro de Funcionarios</a> | 
+        <a href="alterar_salario.html"> Alterar Salario</a>
+        <a href="demissao.html">Demitir funcionario</a>
+        <a href="listar_funcionario.html"> Listar Funcionario</a>
+    </div>
+
+    <div>
+        <h2>Buscar Funcionario</h2>      
+        <label>Cpf do Funcionario:</label><br>
+        <input id="cpf3" type="text"><br><br>
+
+        <button id="cadastro3" onclick="Buscar3()">Buscar funcionario</button>
+
+        <button id="cpf33" onclick="demitir()">Demitir funcionario</button>
+    </div>
+
+    <div class="principal" id="busca-de-funcionarios"></div>
+</body>
+</html>
